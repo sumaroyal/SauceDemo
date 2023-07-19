@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [saucedemoproject]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="saucedemo(failed)">
+    <classes>
+      <class name="automationsaucedemo.addtocarttesting">
+        <methods>
+          <include name="addtocart"/>
+          <include name="webdriverinitialize"/>
+        </methods>
+      </class> <!-- automationsaucedemo.addtocarttesting -->
+      <class name="automationsaucedemo.CheckoutPage">
+        <methods>
+          <include name="checkout"/>
+          <include name="webdriverinitialize"/>
+        </methods>
+      </class> <!-- automationsaucedemo.CheckoutPage -->
+    </classes>
+  </test> <!-- saucedemo(failed) -->
+</suite> <!-- Failed suite [saucedemoproject] -->
